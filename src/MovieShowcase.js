@@ -5,13 +5,22 @@ import movieData from './data.js'
 export default class MovieShowcase extends Component {
 
   generateMovieCards = () => {
-    // map over your movieData array and return an array of the correct JSX
+    
   }
 
   render() {
     return (
       <div id="movie-showcase">
         {this.generateMovieCards()}
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
       </div>
     )
   }
